@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+globals styles here
+changes div to red background, centers content and makes text white
+
+div {
+  @apply bg-red-500;
+  text-align: center;
+  color: white;
+} */
