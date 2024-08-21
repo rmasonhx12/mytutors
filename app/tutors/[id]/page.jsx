@@ -1,10 +1,12 @@
 'use client'
-import { useRouter } from 'next/router'
+import { useRouter, useParams } from 'next/navigation'
 
 const TutorPage = () => {
+  const router = useRouter();
+  const params = useParams();
   return (
     <div>
-      <h1>Tutor Page</h1>
+      Tutor Page { params.id } 
     </div>
   );
 }
