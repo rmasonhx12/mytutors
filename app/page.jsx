@@ -1,13 +1,21 @@
-import Link from 'next/link';
+// Code: app/tutors/page.jsx copyright 2024 Bujisoft
+//'use client';
+//import { useRouter, useParams} from "next/navigation";
+//import Link from 'next/link';
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/InfoBoxes';
 
 const HomePage = () => {
+  
+  //console.log(router);
   return (
-    <div>
-      <h1 className="text-3xl">Welcome to Jacqueline Taylor & Friends</h1>
-      <Link href='/tutors'>Tutors</Link>
-    </div>
-  )
+    <>
+     <Hero  />
+      <InfoBoxes />
+
+    
+    </>
+  );
 }
 
-export default HomePage
-
+export default HomePage;
