@@ -9,8 +9,11 @@ const Hero = () => {
               <h1
                 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl py-5"
               >
-                Find The Perfect Musician
+                Professional Music Teachers
               </h1>
+              <p className="my-4 text-xl text-white">
+                Find your location & instrument type.
+              </p>
               <p className="my-4 text-xl text-white">
                 Discover the perfect teacher for your lessons.
               </p>
