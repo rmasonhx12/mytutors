@@ -40,3 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Added network access to local computers to access server ~ see package.json
 do ipconfig [win] or ifconfig [mac] to find local address for access on other devices
 ~ like 192.168.1.153:3000
+
+## create development branch
