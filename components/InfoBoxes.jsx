@@ -8,8 +8,22 @@ const InfoBoxes = () => {
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
 
-            <InfoBox />
-            <InfoBox />
+            <InfoBox heading = 'Students' buttonInfo={{
+              text: 'Browse Musicians',
+              href: '/musicians',
+              backgroundColor:'bg-black'
+            }}>
+            Find your instrument. Bookmark instrument and contact
+            music teachers.
+              </InfoBox>
+            <InfoBox heading = 'Music Teachers' backgroundColor='bg-blue-100' buttonInfo={{
+              text: 'Add Musician',
+              href: '/musicians/add',
+              backgroundColor:'bg-black'
+            }} >
+            List your studio and reach potential students. Teach at your
+                studio or online.
+              </InfoBox>
 
 
 
