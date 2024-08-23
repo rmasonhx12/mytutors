@@ -1,12 +1,22 @@
 
-import Link from "next/link";
+
+import InfoBox from "./InfoBox";
 
 const InfoBoxes = () => {
     return ( 
         <section>
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+
+            <InfoBox />
+            <InfoBox />
+
+
+
+
+
+            {/* First Info Box replaced */}
+           {/*  <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold">Students</h2>
               <p className="mt-2 mb-4">
                 Find your instrument. Bookmark instrument and contact
@@ -18,8 +28,9 @@ const InfoBoxes = () => {
               >
                 Browse Musicians
               </Link>
-            </div>
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md">
+            </div> */}
+            {/* Second Info Box Replaced */}
+            {/* <div className="bg-blue-100 p-6 rounded-lg shadow-md">
               <h2 className="text-2xl font-bold">Music Teachers</h2>
               <p className="mt-2 mb-4">
                 List your studio and reach potential students. Teach at your
@@ -31,7 +42,7 @@ const InfoBoxes = () => {
               >
                 Add Musician
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
